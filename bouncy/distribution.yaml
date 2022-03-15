@@ -6,22 +6,6 @@ release_platforms:
   ubuntu:
   - bionic
 repositories:
-  ament_cmake_ros:
-    doc:
-      type: git
-      url: https://github.com/ros2/ament_cmake_ros.git
-      version: bouncy
-    release:
-      tags:
-        release: release/bouncy/{package}/{version}
-      url: https://github.com/ros2-gbp/ament_cmake_ros-release.git
-      version: 0.5.0-0
-    source:
-      test_pull_requests: true
-      type: git
-      url: https://github.com/ros2/ament_cmake_ros.git
-      version: bouncy
-    status: developed
   ament_index:
     doc:
       type: git
